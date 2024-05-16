@@ -22,6 +22,10 @@ header{
     background-color: var(--primary)
 }
 
+a{
+    color: var(--primary)
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -29,6 +33,11 @@ img{
 
 body {
     background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .logo-name a img {
@@ -85,6 +94,18 @@ nav a:hover{
 .active{
     background-color: var(--primary);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+i{
+    font-size: 3rem;
 }
 
 @media screen and (min-width: 768px) {
