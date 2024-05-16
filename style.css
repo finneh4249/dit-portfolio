@@ -35,13 +35,21 @@ body {
     background-color: var(--background);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100dvh;
     justify-content: space-between;
     gap: 1rem;
 }
 
+.logo-name{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
 .logo-name a img {
-    height: 4rem;
+    width: 15rem;
+    height: auto;
 }
 
 .name{
@@ -59,6 +67,7 @@ body {
 
 .panel{
     background-color: var(--panel);
+    flex-direction: column;
     width: 100%;
     display: flex;
     align-items: center;
@@ -114,5 +123,9 @@ i{
     }
     .nav-list{
         flex-direction: row;
+    }
+    .logo-name{
+        flex-direction: row;
+        gap: 3rem;
     }
 }
