@@ -14,7 +14,6 @@ The header component has a logo and name of the company along with the navigatio
 
 The footer compontent has social media links, and the information of the company, such as contact number and the address.
 
-
 ## Pages
 
 ### Home
@@ -24,3 +23,11 @@ The home page displays an image and just some random text for now.
 ### Services
 
 The services page shows the services porovided by the company with an image and the title of the service.
+
+### About
+
+The about page utilises CSS Grid to provide some information about the company.
+
+### Contact
+
+The contact page shows a form to contact the company. It does not have any functionality for now.
