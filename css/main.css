@@ -18,6 +18,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+main{
+    max-height: 100dvh;
+}
 
 header{
     display: flex;
@@ -105,7 +108,8 @@ body {
 }
 
 nav a:hover{
-    background-color: var(--primary);
+    background-color: var(--tertiary);
+    color: var(--text-light);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: 800;
     text-transform: uppercase;
@@ -131,6 +135,16 @@ nav a:hover{
     gap: 1rem;
     justify-content: space-evenly;
     flex-wrap:wrap;
+    
+}
+
+.footer-icons a{
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icons a:hover{
+    color: var(--tertiary);
+    
 }
 
 i{

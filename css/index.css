@@ -20,6 +20,7 @@ main{
 main h1{
     font-weight: 900;
     font-size: 3rem;
+    text-transform: uppercase;
     color: var(--text-dark);
 }
 main .panel {
