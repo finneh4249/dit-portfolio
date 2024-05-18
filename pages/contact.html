@@ -12,31 +12,56 @@
     />
   </head>
   <body>
-    <header>
-      <div class="logo-name">
-        <a href="../index.html"
-          ><img src="../images/logo.png" alt="Coder Academy Logo"
-        /></a>
-      <p class="name"><span class="coder-text">Coder</span> <span class="academy-text">Academy</span></p>
-      </div>
-      <nav class="panel">
-        <ul class="nav-list">
-          <li><a href="../index.html" class="nav-link">Home</a></li>
-          <li><a href="./services.html" class="nav-link">Services</a></li>
-          <li><a href="./about.html" class="nav-link">About</a></li>
-          <li><a href="./contact.html" class="nav-link active">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-        <div class="panel">
-          <h1>Welcome to Coder Academy</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia
-            doloremque? Iste, cumque. Doloremque, quia.
-          </p>
+    <div>
+      <header>
+        <div class="logo-name">
+          <a href="../index.html"
+            ><img src="../images/logo.png" alt="Coder Academy Logo"
+          /></a>
+        <p class="name"><span class="coder-text">Coder</span> <span class="academy-text">Academy</span></p>
         </div>
-      </main>
+        <nav class="panel">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="./services.html" class="nav-link">Services</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./contact.html" class="nav-link active">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="splash">  
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="panel">
+          <section class="form">
+            <form action="">
+              <div class="form-element">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-input">
+              </div>
+              <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-input">
+              </div>
+              <div class="form-element">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" class="form-input">
+              </div>
+              <div class="form-element">
+                <label for="reason">Reason</label>
+                <textarea rows="3" cols="6"  name="reason" id="reason" class="form-input form-textarea"></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit" id="submit">Submit</button>
+              </div>
+             </form>
+          </section>
+         
+        </div>
+        </main>
+    </div>
+   
       <footer>
         <div class="panel footer-links">
           <div class="footer-icons">  <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
